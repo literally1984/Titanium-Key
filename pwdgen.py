@@ -1,7 +1,8 @@
 import random
 valnum = False
 while valnum == False:
-  pwdlen = input("How many characters do you want in your password? ")
+  print("How many characters do you want in your password? 10 characters and more usually creates a strong one.")
+  pwdlen = input()
   if "0" in pwdlen or "1" in pwdlen or "2" in pwdlen or "3" in pwdlen or "4" in pwdlen or "5" in pwdlen or "6" in pwdlen or "7" in pwdlen or "8" in pwdlen or "9" in pwdlen:
     if "-" in pwdlen or pwdlen == "0":
       print("Enter a number greater than 0, please.")
