@@ -1,2 +1,2 @@
 # Titanium Key
-Generate strong passwords easily and locally.
+Simple but powerful password generator.
